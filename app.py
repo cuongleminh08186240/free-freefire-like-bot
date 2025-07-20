@@ -1,8 +1,6 @@
-import discord
-from discord.ext import commands , tasks 
-import os
-import traceback
-from flask import Flask
+import telebot
+import requests
+import time
 import threading
 import sys
 import aiohttp
