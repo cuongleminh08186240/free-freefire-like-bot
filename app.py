@@ -1,7 +1,7 @@
-import telebot
-import requests
-import time
-import threading
+import discord
+from discord.ext import commands , tasks 
+import os
+import traceback
 import sys
 import aiohttp
 
